@@ -16,7 +16,7 @@ public class Liquid {
     private double volume;
 
     /**
-     * Alcohol percentage by volume (e.g. 42 means 42% alcohol)
+     * Alcohol percentage by volume (e.g. 50)
      */
     private double alcoholPercent;
 
@@ -25,7 +25,7 @@ public class Liquid {
      *
      * @param name name of the liquid
      * @param volume volume of the liquid in liters
-     * @param alcoholPercent alcohol percentage by volume (e.g. 42 means 42%)
+     * @param alcoholPercent alcohol percentage by volume (e.g. 50)
      */
     public Liquid(String name, double volume, double alcoholPercent) {
         this.name = name;
@@ -72,7 +72,7 @@ public class Liquid {
     /**
      * Returns the alcohol percentage by volume
      *
-     * @return alcohol percentage (e.g. 42 means 42%)
+     * @return alcohol percentage (e.g. 50)
      */
     public double getAlcoholPercent() {
         return alcoholPercent;
@@ -81,7 +81,7 @@ public class Liquid {
     /**
      * Sets the alcohol percentage by volume
      *
-     * @param alcoholPercent new alcohol percentage (e.g. 42 means 42%)
+     * @param alcoholPercent new alcohol percentage (e.g. 42)
      */
     public void setAlcoholPercent(double alcoholPercent) {
         this.alcoholPercent = alcoholPercent;
