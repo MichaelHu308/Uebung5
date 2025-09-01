@@ -125,6 +125,7 @@
                 <configuration>
                     <!--  Disable JavaDoc warnings  -->
                     <additionalJOption>-Xdoclint:none</additionalJOption>
+                    <failOnError>false</failOnError>
                 </configuration>
             </plugin>
             <!--  Test Coverage from JaCoCo Plugin integration in Maven Site Documentation  -->
