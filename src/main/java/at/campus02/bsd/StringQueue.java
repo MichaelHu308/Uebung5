@@ -1,4 +1,4 @@
-
+package at.campus02.bsd;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}
